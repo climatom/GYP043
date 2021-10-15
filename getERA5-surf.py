@@ -2,9 +2,9 @@ import cdsapi
 c = cdsapi.Client()
 do="/home/lunet/gytm3/Teaching/GYP043/2021/ERA5/"
 
-for y in range(1979,2022):
+for y in range(2021,2022):
     
-    for m in range(1,13): 
+    for m in range(8,10): 
         
         ofile=do+"year-%.0f_month-%.0f.nc"%(y,m)
         
